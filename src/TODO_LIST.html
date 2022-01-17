@@ -9,7 +9,11 @@
   </head>
   <body>
     <div class="mainbox">
-      <div class="title">TODO LIST</div>
+      <div class="top">
+        <div class="title">TODO LIST</div>
+        <div><input type="text" id="add-list" name="add-list" placeholder="在这里输入希望添加的内容"></div>
+        <button id="clear-btn">全部清除</button>
+      </div>
       <div class="todo">
         <div class="cont">
           <div class="content content-up">
@@ -17,12 +21,21 @@
               <div class="choosenav">
                 <span>进行中</span>
               </div>
-              <div class="doing-contnent">
+              <div class="dContent">
                 <div class="doing-item">
                   <ul>
-                    <li class="dlist doinglist">11111</li>
-                    <li class="dlist doinglist">22222</li>
-                    <li class="dlist doinglist">333333</li>
+                    <li class="dlist doinglist">
+                      <input type="checkbox" name="" class="choose-box">
+                      <span>11111</span>
+                    </li>
+                    <li class="dlist doinglist">
+                      <input type="checkbox" name="" class="choose-box">
+                      <span>2222</span>
+                    </li>
+                    <li class="dlist doinglist">
+                      <input type="checkbox" name="" class="choose-box">
+                      <span>3333333</span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -31,15 +44,24 @@
 
           <div class="content content-down">
             <div class="items">
-              <div class="choosenav current">
+              <div class="choosenav">
                 <span>已完成</span>
               </div>
-              <div class="done-content">
+              <div class="dContent">
                 <div class="done-item">
                   <ul>
-                    <li class="dlist donelist">2323432</li>
-                    <li class="dlist donelist">234242</li>
-                    <li class="dlist donelist">23423412</li>
+                    <li class="dlist donelist">
+                      <input type="checkbox" name="" class="choose-box" checked>
+                      <span>11111</span>
+                    </li>
+                    <li class="dlist donelist">
+                      <input type="checkbox" name="" class="choose-box" checked>
+                      <span>11111</span>
+                    </li>
+                    <li class="dlist donelist">
+                      <input type="checkbox" name="" class="choose-box" checked>
+                      <span>11111</span>
+                    </li>
                   </ul>
                 </div>
               </div>
