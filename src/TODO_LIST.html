@@ -6,36 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What todo? LIST!</title>
     <link rel="stylesheet" href="../css/todoo.css" />
-
   </head>
   <body>
     <div class="mainbox">
-      <div class="nav"></div>
+      <div class="title">TODO LIST</div>
       <div class="todo">
         <div class="cont">
-          <div class="choosenav">
-            <ul>
-              <li class="current">进行中</li>
-              <li>已完成</li>
-            </ul>
-          </div>
-          <div class="content">
-            <div class="items" style="display: block">
-              <div class="title-block">还有什么没做完呢？</div>
+          <div class="content content-up">
+            <div class="items">
+              <div class="choosenav">
+                <span>进行中</span>
+              </div>
               <div class="doing-contnent">
                 <div class="doing-item">
                   <ul>
-                    <li class="doinglist"></li>
-                    <li class="doinglist"></li>
-                    <li class="doinglist"></li>
+                    <li class="dlist doinglist">11111</li>
+                    <li class="dlist doinglist">22222</li>
+                    <li class="dlist doinglist">333333</li>
                   </ul>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="content content-down">
             <div class="items">
-              <div class="title-block">有什么事做完了呢？</div>
+              <div class="choosenav current">
+                <span>已完成</span>
+              </div>
               <div class="done-content">
-                <div class="done-item"></div>
+                <div class="done-item">
+                  <ul>
+                    <li class="dlist donelist">2323432</li>
+                    <li class="dlist donelist">234242</li>
+                    <li class="dlist donelist">23423412</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -43,5 +49,12 @@
       </div>
     </div>
   </body>
-  <script src="list.js"></script>
+  <!-- <script src="list.js"></script> -->
 </html>
+
+<!-- <div class="choosenav">
+            <ul>
+              <li>进行中</li>
+              <li>已完成</li>
+            </ul>
+          </div> -->
